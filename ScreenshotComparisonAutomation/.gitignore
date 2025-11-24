@@ -1,0 +1,13 @@
+node_modules/
+.vscode/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+/.DS_Store
+*.log
+captures.zip
+/*.zip

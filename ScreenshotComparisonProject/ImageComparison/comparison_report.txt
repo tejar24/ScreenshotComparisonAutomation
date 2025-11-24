@@ -1,0 +1,9 @@
+===== SCREENSHOT COMPARISON REPORT =====
+Generated: 2025-11-22 22:18:40.852664
+SSIM Score (Visual Similarity): 1.0000
+Visual Match Percentage: 100.00%
+Difference Image Saved At: C:\Users\tejar\Demo\ScreenshotComparisonProject\ImageComparison\diff_highlighted_bw.png
+Text Differences: No text differences detected.
+Logo/Image Template Matches:
+No logo templates provided.
+========================================
