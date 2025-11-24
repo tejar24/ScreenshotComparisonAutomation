@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Screenshot Extension</title>
+  </head>
+  <body>
+    <div class="logo-wrap" aria-hidden="true">
+      <img src="logo.svg" alt="logo" class="logo" />
+    </div>
+
+    <div class="container-sm">
+      <h1>Popup Page</h1>
+      <p>This is the popup page for the extension.</p>
+      <button id="capture">Take Screenshot</button>
+      <br><br>
+      <button id="download-zip">Download ZIP</button>
+    </div>
+
+    <script src="../utils/exporter.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

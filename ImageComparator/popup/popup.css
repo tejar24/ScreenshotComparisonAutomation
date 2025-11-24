@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Base layout */
+html, body {
+	margin: 0;
+	padding: 12px;
+	background: #ffffff;
+	font-family: 'Poppins', 'Segoe UI', Roboto, Arial, sans-serif;
+	color: #1b2b2b;
+}
+
+.container-sm {
+	width: 280px;
+	text-align: center;
+}
+
+h1 {
+	margin: 6px 0 10px 0;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	color: #0f2e2a;
+}
+
+p {
+	margin: 0 0 12px 0;
+	font-size: 13px;
+	color: #4a4a4a;
+}
+
+/* Buttons: big outlined green button like the screenshot */
+button {
+	font-family: inherit;
+	font-size: 15px;
+	padding: 10px 28px;
+	border-radius: 8px;
+	border: 2px solid #197a4d;
+	background: #ffffff;
+	color: #197a4d;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+button:active {
+	transform: translateY(1px);
+}
+
+button:hover {
+	background: #197a4d;
+	color: #ffffff;
+}
+
+/* Small link styled under the button */
+a {
+	color: #1565c0;
+	text-decoration: underline;
+	font-size: 13px;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+label {
+	font-size: 13px;
+	color: #3b3b3b;
+}
+
+/* Make buttons full width when stacked */
+#capture, #download-zip {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Logo at top */
+.logo-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.logo {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	display: block;
+	box-shadow: 0 2px 6px rgba(25,122,77,0.18);
+}
+
