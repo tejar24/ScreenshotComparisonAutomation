@@ -37,6 +37,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
       scrollY,
       viewportWidth,
       viewportHeight,
+      devicePixelRatio: window.devicePixelRatio || 1,
       element: elementData,
     });
   }
